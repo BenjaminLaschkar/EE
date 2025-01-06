@@ -3,5 +3,5 @@
 <remote name="github" fetch="https://github.com/BenjaminLaschkar" />
 <default revision="main" remote="github" />
 <project name="EE.git" remote="github" revision="main" />
-<project path="Engine" name="Test_B_independant.git" remote="github" revision="main" />
+<project path="Engine" name="Engine.git" remote="github" revision="main" />
 </manifest>
