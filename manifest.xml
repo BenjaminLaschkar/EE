@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="github" fetch="https://github.com/BenjaminLaschkar" />
-<default revision="main" remote="github" />
-<project name="EE.git" remote="github" revision="main" />
-<project path="Engine" name="Engine.git" remote="github" revision="main" />
+  <!-- Définition du remote -->
+  <remote name="github" fetch="https://github.com/BenjaminLaschkar" />
+  <default revision="main" remote="github" sync-j="4" />
+
+  <!-- Projets avec groupes -->
+  <project path="EBM" name="EBM" groups="ebm"/>
+  <project path="EE" name="EE" groups="ee"/>
+  <project path="Engine" name="Engine" groups="core,ebm,ee"/>
 </manifest>
